@@ -10,54 +10,7 @@ header {
     opacity: 0.8;
     color: white;
 }
-/* .header-left {
-    width: 20%;
-    height: 400px;
-    display: none;
-}
-.bar {
-    width: 5px;
-    height: 400px;
-    background: silver;
-    margin: 0 auto;
-}
-.hontai {
-    width: 180px;
-    height: 0px;
-    border-bottom: 40px solid blue;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    margin: 0 auto;
-}
-.right {
-    width: 150px;
-    height: 50px;
-    border-radius: 0 0 50px 50px;
-    background: rgb(255, 255, 0);
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-.maru-box {
-    width: 20%;
-    height: 100px;
-    margin: -50px 0 0 50px;
-}
-.maru {
-    width: 10px;
-    height: 10px;
-    background: silver;
-    border-radius: 50%;
-    margin-top: 5px;
-}
-.swich {
-    width: 15px;
-    height: 15px;
-    background: blue;
-    margin-top: 10px;
-} */
+
 .center {
     display: flex;
     margin: 50vh auto 0 120px;
@@ -115,30 +68,7 @@ header {
 .skill:hover::after {
     width: 4.5%;
 }
-/* .bg-group .bg01 {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    top: 100px;
-    right: 600px;
-    z-index: 0;
-}
-.bg-group .bg02 {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    top: 150px;
-    right: 400px;
-    z-index: 1;
-}
-.bg-group .bg03 {
-    width: 250px;
-    height: 400px;
-    position: absolute;
-    top: 300px;
-    right: 100px;
-    z-index: 1;
-} */
+
 main {
     width: 100%;
     height: 100vh;
@@ -174,7 +104,6 @@ main {
     font-family: 'Silom',sans-serif;
     font-size: 20px;
     margin-left: 44%;
-    border-bottom: 10px solid palegoldenrod;
 }
 
 .profile {
@@ -203,13 +132,13 @@ main {
         margin-left: 200px;
     }
 }
-footer {
+section {
     padding-top: 300px;
     width: 100%;
     height: 100vh;
     text-align: center;
 }
-.footer span {
+.section span {
     border-bottom: 10px solid palegoldenrod;
     letter-spacing: .2em;
     font-family: 'Silom',sans-serif;
@@ -244,4 +173,58 @@ footer {
 .sakuhinbg {
     width: 200px;
     height: 200px;
+}
+aside {
+    width: 100%;
+    height: 20vh;
+}
+.button-2{
+    width:140px;
+    height:50px;
+    border:2px solid #34495e;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin: 0 auto;
+  }
+  .button-2 a{
+    font-family: 'Silom',sans-serif;
+    font-size:16px;
+    color:#34495e;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-2{
+    width:140px;
+    height:50px;
+    left:-140px;
+    background:#34495e;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .button-2:hover .eff-2{
+    left:0;
+  }
+  .button-2:hover a{
+    color:#fff;
+  }
+
+.button {
+    float: right;
+    margin-top: 40px;
+    width:140px;
+    height:25px;
+    border:2px solid #34495e;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 0;
+    font-family: 'Silom',sans-serif;
+    background: black;
+    color: white;
 }

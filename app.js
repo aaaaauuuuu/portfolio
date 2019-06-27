@@ -14,5 +14,22 @@ $(function() {
           }
         }
       })
+      
+})
 
+$(function(){
+  $('.about').click(function(){
+    console.log('aaa');
+    $('html').animate({scrollTop: 800},1200);
+  })
+
+  $('.skill').click(function(){
+    console.log('aaa');
+    $('html').animate({scrollTop: 1850},2000);
+  })
+
+  $('.button').click(function(){
+    console.log('bbb');
+    $('html').animate({scrollTop:0}, 1000);
+  })
 })
