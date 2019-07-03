@@ -26,7 +26,7 @@ header {
 .name::after {
     background-color: rgb(253, 72, 102);
     bottom: 380px;
-    left: 120px;
+    right: 120px;
     content: "";
     display:block;
     height: 1px;
@@ -217,7 +217,7 @@ aside {
 
 .button {
     float: right;
-    margin-top: 40px;
+    margin-top: 0px;
     width:140px;
     height:25px;
     border:2px solid #34495e;
