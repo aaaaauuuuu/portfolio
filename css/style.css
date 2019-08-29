@@ -13,7 +13,8 @@ header {
 
 .center {
     display: flex;
-    margin: 50vh auto 0 120px;
+    margin: auto auto auto 120px;
+    align-content: center;
     letter-spacing: .2em;
     font-family: 'Silom',sans-serif;
     font-size: 20px;
@@ -23,21 +24,18 @@ header {
 .skill {
     margin-right: 50px;
 }
-.name::after {
-    background-color: rgb(253, 72, 102);
-    bottom: 380px;
-    right: 120px;
-    content: "";
-    display:block;
-    height: 1px;
-    right: 40px;
-    position: absolute;
-    transition: .5s all;
-    width: 30px;
+/* .name:hover {
+    color: pink;
+} */
+.about:hover {
+    color: rgba(35, 124, 35, 0.76);
+}
+.skill:hover {
+    color: skyblue;
 }
 .about::after {
-    background-color: rgb(253, 72, 102);
-    bottom: 380px;
+    background-color: yellow;
+    bottom: 390px;
     left: 330px;
     content: "";
     display:block;
@@ -48,8 +46,8 @@ header {
     width: 30px;
 }
 .skill::after {
-    background-color: rgb(253, 72, 102);
-    bottom: 380px;
+    background-color: yellow;
+    bottom: 390px;
     left: 465px;
     content: "";
     display:block;
@@ -59,9 +57,7 @@ header {
     transition: .5s all;
     width: 30px;
 }
-.name:hover::after {
-    width: 11%;
-}
+
 .about:hover::after {
     width: 6%;
 }
@@ -173,6 +169,7 @@ section {
 .sakuhinbg {
     width: 200px;
     height: 200px;
+    margin: 30px 0 0 90px;
 }
 aside {
     width: 100%;

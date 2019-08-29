@@ -18,12 +18,12 @@ $(function() {
 })
 
 $(function(){
-  $('.about').click(function(){
+  $('.about').mouseover(function(){
     console.log('aaa');
     $('html').animate({scrollTop: 800},1200);
   })
 
-  $('.skill').click(function(){
+  $('.skill').mouseover(function(){
     console.log('aaa');
     $('html').animate({scrollTop: 1850},2000);
   })
